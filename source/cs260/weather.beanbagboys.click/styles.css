@@ -1,0 +1,69 @@
+#forecastResults{
+ color: white;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+    
+}
+#weatherInput{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+
+
+}
+label{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    width: 100%;
+    max-width: 600px;
+    height:auto;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    text-size-adjust: 24px;
+
+    
+
+}
+h1{
+    display: flex;
+    justify-content: right;
+    margin-right: 400px;
+    color: white;
+    align-items: center;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body {
+    background-image: url("https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?cs=srgb&dl=pexels-philippe-donn-1114690.jpg&fm=jpg");
+    background-size: cover;
+}
+#searchbox{
+    display: flex;
+    justify-content: right;
+    
+}
+#element{
+    background-color: rgba(70, 49, 187, 0.418);
+    width: 380px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin: 20px;
+    
+   
+}
+#footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.123);
+}
